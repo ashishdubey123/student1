@@ -11,7 +11,7 @@ pipeline {
         }
         stage('mvn clean'){
             steps{
-                echo "MAVEN INCLUDED BY ashish"
+                sh 'mvn clean'
             }
         }
         
